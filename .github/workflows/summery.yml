@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "## todo list" >> $GITHUB_STEP_SUM
-          echo "## eating" >> $GITHUB_STEP_SUM
-          echo "## sleeping" >> $GITHUB_STEP_SUM
-          echo "## playing" >> $GITHUB_STEP_SUM
+          echo "## todo list" >> $GITHUB_STEP_SUMMARY
+          echo "## eating" >> $GITHUB_STEP_SUMMARY
+          echo "## sleeping" >> $GITHUB_STEP_SUMMARY
+          echo "## playing" >> $GITHUB_STEP_SUMMARY
         
